@@ -7,10 +7,10 @@
 
 namespace Atwix\CartCouponSample\Setup;
 
+use Atwix\CartCouponSample\Setup\SetupService\CreateCartPriceRuleService;
 use Magento\Framework\Setup\InstallDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
-use Atwix\CartCouponSample\Setup\SetupService\CreateCartPriceRuleService;
 
 /**
  * Class InstallData

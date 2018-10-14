@@ -42,7 +42,7 @@ class GenerateCouponCodesService
      */
     public function execute(int $qty, int $ruleId, array $params = []): void
     {
-        if (!$qty) {
+        if (!$qty || !$ruleId) {
             return;
         }
 
