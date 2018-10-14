@@ -1,0 +1,15 @@
+{
+  "name": "atwix/m2-cart-coupon-sample",
+  "description": "Sample module for creating a cart price rule and generating coupon codes.",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Atwix\\CartCouponSample\\": ""
+    }
+  }
+}
